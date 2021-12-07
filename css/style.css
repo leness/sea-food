@@ -240,7 +240,7 @@ opacity: 1;
 .product__content-box {
     display: flex;
     justify-content: space-between;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .product__content-list {
@@ -285,4 +285,34 @@ opacity: 1;
     border: 1px solid #001E64;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.seafood {
+    background-image: url(../images/seafood-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 290px 0 95px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.seafood__items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seafood__item {
+    width: 180px;
+    min-height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/seafood-decor.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
